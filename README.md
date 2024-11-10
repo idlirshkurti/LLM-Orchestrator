@@ -1,13 +1,3 @@
-
-### LLM-Orchestrator - Description
-
-> **LLM-Orchestrator**: A Python-based toolkit to run and manage language model agents using multi-hop reasoning, customizable toolsets, and model providers like ChatGPT, OpenAI, and Cohere. Easily configure and execute interactive agents, conduct query-based interactions, and integrate with various LLM tools.
-
----
-
-### README.md
-
-```markdown
 # LLM-Orchestrator
 
 LLM-Orchestrator is a Python-based toolkit for running and managing interactive language model agents. It provides a flexible structure for executing multi-hop, tool-assisted language models using providers such as OpenAI's ChatGPT and Cohere's models. This repository is designed to streamline the process of configuring and deploying query-driven agents, complete with tool support for specialized functions such as code execution and internet search.

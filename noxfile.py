@@ -1,7 +1,7 @@
 import nox
 
 # Paths to the files and directories we want to check
-code_files = ["live_llm", "tests", "noxfile.py"]
+code_files = ["llm-orchestrator", "tests", "noxfile.py"]
 
 @nox.session
 def install_deps(session):
@@ -21,7 +21,7 @@ def run_agent(session):
         "poetry",
         "run",
         "python",
-        "live_llm/agent_executor.py",
+        "llm-orchestrator/agent_executor.py",
         "--model_provider=openai",
         "--model_name=chatgpt-3.5",
         "--input=Your query here",
